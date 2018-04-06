@@ -1,26 +1,49 @@
-# TestInk
-//some catchy slogan about ink hehe
-## Overview
-//TODO
+![Introduction](https://github.com/melissahe/TestInk/blob/qa/Gifs/Screen%20Shot%202018-04-06%20at%201.27.36%20PM.png)
 
-## Problem
-//TODO
 
-## Solution
-//TODO
+## <p align="center"> TestInk is an app that allows users to preview tattos using augmented reality
+</p>
+
+## What's the Problem?
+There are **45,000,000** Americans who have at least one tattoo abut there is a lack of technology that specifically aims to serve and cultivate the tattoo community at large.
+
+## TestInk's Solution
+- Preview designs on your skin using AR Technology!
+- Discover and share designs with the community.
+- Accessible to ANY artistic level!
+
+## Click on YouTube to preview a video of our app including AR functionality
+<p align="center">
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="https://github.com/melissahe/TestInk/blob/qa/Gifs/youtubeImg.png" 
+alt="https://github.com/melissahe/TestInk/blob/qa/Gifs/youtubeImg.png" width="240" height="180" border="10" /></a>
+</p>
+
+Login View| Profile View |.
+:---: | :---: | :---: 
+![gif](https://github.com/melissahe/TestInk/blob/qa/Gifs/Login.gif) App asks user for location authorization | ![gif](https://github.com/melissahe/TestInk/blob/qa/Gifs/Like%20and%20Fev.gif) User searches for resource cneter by borough | 
+Login View| Profile View |
+![gif](https://github.com/melissahe/TestInk/blob/qa/Gifs/CropDemo.gif) Get directions from user location to resource center | ![gif](https://github.com/melissahe/TestInk/blob/qa/Gifs/FilterDemo.gif) User can save a resource center and delete | |
 
 ## App Flow
-|TODO|TODO|
-|:-------------:|:-------------:|
-|<img src="TODO" width="358" height="626">|<img src="TODO" width="358" height="626">|
 
-## Features
-//TODO
+
+## Future Updates
+- Network with other tattoo artists and use their designs
+- Use photo sharing services to import other tattoo designs
+- Try on tattoos without needing stickers using Core ML to recognize a drawing as the image on you skin
+
+## Technologies Used
+- Firebase as a backend service
+- ARKit Technology
+- Core Image to add filtering functionality
+- Core Graphics for cropping functionality
+
 
 ## Requirements
-//TODO
 - iOS 8.0+ / Mac OS X 10.11+ / tvOS 9.0+
-- Xcode 9.0+
+- Xcode 9.3+
+- iOS 11.3
 - Swift 4.0+
 - ARKit Compatible Device (Apple A9 processor or higher)
 
@@ -37,15 +60,11 @@ CocoaPods is a dependency manager for Cocoa projects. You can install it with th
   - Firebase/Auth
   - Firebase/Database
   -Firebase/Storage
-- [IQKeyboardManagerSwift](https://github.com/hackiftekhar/IQKeyboardManager)
-- [KingFisher](https://github.com/onevcat/Kingfisher)
 - [SnapKit](http://snapkit.io/docs)
-- [SVProgessHUD](https://github.com/SVProgressHUD/SVProgressHUD)
 - [Toucan](https://github.com/gavinbunney/Toucan)
 
 ### How to Install Pods
 To integrate these pods into your Xcode project using CocoaPods, specify it in your Podfile:
-
 ```
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.0'
@@ -57,10 +76,7 @@ target '<Your Target Name>' do
     pod 'Firebase/Auth'
     pod 'Firebase/Database'
     pod 'Firebase/Storage'
-    pod 'Kingfisher'
     pod 'Toucan'
-    pod 'IQKeyboardManagerSwift'
-    pod 'SVProgessHUD'
 end
 ```
 
